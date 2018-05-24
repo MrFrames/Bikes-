@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family: 'riztteen';
+    src: url('static/fonts/riztteen.oft');
+}
+
+.navItem {
+    color: orange;
+    display:inline-block;
+    width: 32%;
+    margin: 22px 0;
+    text-align: center;
+    font-family:  'Josefin Slab';
+    text-decoration: underline;
+}
+
+.Heading {
+    font-size: 40px;
+    color: lightblue;
+    font-family: 'Josefin Slab';
+    margin: 15px 0px;
+}
+
+.ladies {
+    font-family: riztteen;
+}
+
+.navBar {
+    background-color: Black;
+    width: 100%;
+    height: 71px;
+    position: fixed;
+    z-index: 10;
+    border-bottom: 6px groove orange;
+}
+
+.section {
+    display: inline-block;
+    height: 65px;
+    width: 40%;
+}
+
+.center {
+    display: inline-block;
+    height:65px;
+    width: 20%;
+    float:left;
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    font-family: 'Josefin Slab';
+    color: white;
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+.navDiv {
+    margin: 22px auto;
+    border: 1px white solid;
+
+}
+
+.centerBox {
+    margin: 22px 0;
+}
+
+.right {
+    margin-left: 2px;
+    width: 39%;
+    float: right;
+}
+
+.left {
+    margin-left: 3px;
+    float:left;
+}
+
+
+
+.roadPic {
+    margin-top: 65px;
+    z-index: 1;
+}
+
+.pic {
+    width: 100%;
+    position: fixed;
+}
+
+.inRoadPic {
+    position: absolute;
+    z-index: 2;
+    color:black;
+    background-color:aliceblue;
+    padding: 3px;
+    border-radius: 7px;
+    
+}
+
+.Road {
+    font-family: 'Josefin Slab'
+}
+
+.inRoad {
+    position: absolute;
+    height= 20px;
+    width= 100px;
+    top: 30%;
+    left: 30px
+    z-index: 3;
+    color:white;
+    border: white 1px solid;
+}
+
+.nextLine {
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    background-color: aliceblue
+}
+
+.bottomRight {
+    bottom: 40%;
+    right: 10%;
+    border-radius: 10px
+}
+
+.firstLine {
+    left: 30px;
+    top: 20%
+}
+
+.nextObject {
+    position: relative;
+    z-index: 4;
+    top: 600px;
+    width: 100%;
+    height: 900px;
+    background-color: lightblue;
+    border-top: 6px groove lightBlue;
+    color: black;
+    font-size: 20px
+    
+}
+
+
+
+
+
+
+
+p {
+    margin: 3% 3% 3% 5%;
+}
+
+.pStart {
+    font-size: 28px;
+}
+
+li {
+    margin-top:17px;
+}
+
+.leftList {
+        margin-left: 90px;
+}
+
+.centerList {
+    text-align: center;
+}
+
